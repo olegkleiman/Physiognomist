@@ -256,6 +256,13 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    private int calculateSampleSize(BitmapFactory.Options options,
+                                    int reqWidth, int reqreqHeight) {
+        int inSampleSize = 1;
+
+        return inSampleSize;
+    }
+
     public static Bitmap rotateImage(Bitmap source, float angle) {
         Bitmap retVal;
 
